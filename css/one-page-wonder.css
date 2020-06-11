@@ -18,6 +18,11 @@ h6 {
   font-weight: 800 !important;
 }
 
+.my-top {
+  margin-top: 7rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -53,6 +58,8 @@ h6 {
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
+
+
 
 header.masthead {
   position: relative;
