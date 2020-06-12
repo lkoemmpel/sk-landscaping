@@ -110,13 +110,13 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary {
-  background-color: #3f4241;
+  background-color: #424242;
   border-color: #788f86;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #ffffff !important;
-  border-color: #2d0081 !important;
+  background-color: #194732 !important;
+  border-color: #5c7561 !important;
 }
 
 .btn-primary:focus {
