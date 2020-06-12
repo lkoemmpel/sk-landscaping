@@ -115,7 +115,7 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #07bd96 !important;
+  background-color: #ffffff !important;
   border-color: #2d0081 !important;
 }
 
@@ -342,3 +342,15 @@ transform:translateY(0px);
     width:400px;
   }
 }
+
+/* ................. */
+.jumbotron {
+  background: #358CCE;
+  color: #FFF;
+  border-radius: 0px;
+  }
+  .jumbotron-sm { padding-top: 24px;
+  padding-bottom: 24px; }
+  .jumbotron small {
+  color: #FFF;
+  }
