@@ -59,7 +59,9 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-
+.h-2 {
+  height: 2%;
+}
 
 header.masthead {
   position: relative;
@@ -86,40 +88,8 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #8cfdc8 0%, #002d70 100%);
-}
 
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
 
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
 
 @media (min-width: 992px) {
   header.masthead {
@@ -171,4 +141,60 @@ header.masthead .bg-circle-4 {
 }
 .alignright {
 	float: right;
+}
+
+
+
+
+header {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
 }
