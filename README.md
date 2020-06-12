@@ -1,6 +1,6 @@
 ## Preview
 
-[![SK Landscaping Preview](https://github.com/lkoemmpel/sk-landscaping/img/screenshot.png)](https://github.com/lkoemmpel/sk-landscaping/img/screenshot.png)
+[![SK Landscaping Preview](https://github.com/lkoemmpel/sk-landscaping/blob/master/img/screenshot.png)](https://github.com/lkoemmpel/sk-landscaping/blob/master/img/screenshot.png)
 
 
 ## Copyright and License
