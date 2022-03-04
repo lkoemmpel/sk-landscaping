@@ -4,7 +4,7 @@
 
 ## Details
 
-This is a website I developed for my family's landscaping business. 
+This is a website I developed for my family's landscaping business. The live site currently lives at laurakoemmpel.com/sklandscaping.
 
 ## Copyright and License
 
